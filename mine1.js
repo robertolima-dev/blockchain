@@ -11,7 +11,7 @@ async function addNewBloc() {
             },
         ]}
         console.log(`**************** Início do bloco ${i} ****************`)
-        await axios.post('http://localhost:4000/mine', data)
+        await axios.post('http://localhost:4001/mine', data)
         .then(res => {
             console.log(`bc numero ${i+1} ==>`,res.data)
         })

@@ -1,10 +1,10 @@
 const express = require('express')
 const Blockchain = require('../blockchain')
-const HTTP_PORT = process.env.HTTP_PORT || 4000
+const HTTP_PORT = process.env.HTTP_PORT || 4001
 const P2pServer = require('./p2p-server')
 const Wallet = require('../wallet')
 const TransactionPool = require('../wallet/transaction-pool')
-// $ HTTP_PORT=4001 P2P_PORT=5001 PEERS=ws://localhost:5000 npm run dev
+// $ HTTP_PORT=4002 P2P_PORT=5002 PEERS=ws://localhost:5001 npm run dev
 
 const app = express()
 const bc = new Blockchain()
