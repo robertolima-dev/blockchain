@@ -30,18 +30,23 @@ Clone o projeto
 `$ npm i`
 
 `$ npm run dev` 
-> vai iniciar http no localhost:4001 e socket no localhost:5001
+<br />
+vai iniciar http no localhost:4001 e socket no localhost:5001
 
-> Abra um novo terminal e rode o comando:
+Abra um novo terminal e rode o comando:
+<br />
 `$ HTTP_PORT=4002 P2P_PORT=5002 PEERS=ws://localhost:5001 npm run dev` 
-> vai iniciar um p2p http no localhost:4002 e socket no localhost:5002
+<br />
+vai iniciar um p2p http no localhost:4002 e socket no localhost:5002
 
 ## inciando um bloco
 
-> Vá na raiz do projeto e rode o comando:
+Vá na raiz do projeto e rode o comando:
+<br />
 `node miner1.js`
 
-> Abra um novo terminal e rode o comando:
+Abra um novo terminal e rode o comando:
+<br />
 `node miner2.js`
 
 <div align="center">
