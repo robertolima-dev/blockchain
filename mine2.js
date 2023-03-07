@@ -7,7 +7,7 @@ async function addNewBloc() {
                 user: 'Sou um user teste 4', 
                 value: `${Math.floor(Math.random()*(999-100+1)+100)}U$`,
                 img: 'base64...',
-                news: 'O presidente Jair Bolsonaro é genocida'
+                news: 'Aqui recebemos outro dado'
             },
         ]}
         console.log(`**************** Início do bloco ${i} ****************`)
